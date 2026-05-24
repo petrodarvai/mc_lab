@@ -1,10 +1,10 @@
 #include <ESP8266WiFi.h>
 #include <ESP8266WebServer.h>
 
-#define LED_PIN_R 0   
-#define LED_PIN_Y 14  
-#define LED_PIN_G 12  
-#define BUTTON    13
+#define LED_PIN_R 2U   
+#define LED_PIN_Y 13U  
+#define LED_PIN_G 14U 
+#define BUTTON    12U
 
 ESP8266WebServer server(80);
 
